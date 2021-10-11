@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../img/about-photo.png";
+import image2 from "../img/leaves1.png";
 import { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -8,7 +9,7 @@ import { useInView } from "react-intersection-observer";
 const words = [
   "Je suis une developpeuse web à la recherche d'un stage.",
   "Possédant de solides bases en React et Javascript,",
-  "je m'adapte à tout types de projets et d'équipes.",
+  "je m'adapte à tous types de projets et d'équipes.",
   "J'ai de plus quelques connaissances en Python.",
   "La logique de programmation me passionne.",
 ];
@@ -111,6 +112,7 @@ export const About = () => {
       <div className="container ">
         <TileQualities />
       </div>
+      <img src={image2} alt="" className="leave1"/>
     </div>
   );
 };

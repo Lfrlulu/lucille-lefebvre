@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    max-width: 120rem;
+  
+    @media screen and (max-width:$sm-breakpoint){
+      max-width: 400px;
+    }
+  
+    @media screen and (min-width:$sm-breakpoint){
+      max-width: 540px;
+    }
+  
+    @media screen and (min-width:$md-breakpoint){
+      max-width: 720px;
+    }
+  
+    @media screen and (min-width:$lg-breakpoint){
+      max-width: 960px;
+    }
+
+    @media screen and (min-width:$xxl-breakpoint){
+      max-width: 1320px;
+    }
+  
+  }

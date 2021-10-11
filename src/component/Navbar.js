@@ -34,15 +34,16 @@ export class Navbar extends Component {
                 <div className="links">
                   <ul>
 
-                    <li>
-                      <a href="/">
-                        Home
-                      </a>
-                    </li>
+
                   
                     <li>
                       <a href="#about">
                         About
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        Projets
                       </a>
                     </li>
                     <li>

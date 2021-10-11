@@ -1,11 +1,11 @@
 import video from './vid/bg-video-HD.mp4'
-import './App.scss';
+import './sass/App.scss';
 import Typewriter from 'typewriter-effect';
 import { Navbar } from './component/Navbar';
-import { About } from './component/About'
-// import image from "./img/jungle-dessinmodif3.png"
+import { About } from './component/About';
+import { Contact } from './component/Contact';
 import image from "./img/jungle-white-2.png"
-import image2 from "./img/feuille-cover-color.png"
+import { Projects } from './component/Projects';
 
 
 
@@ -41,7 +41,9 @@ function App() {
           <source src={video} type="video/mp4" />
         </video>
       </header>
-      <About/> 
+      <About/>
+      <Projects/>
+      <Contact/>
     </div>
   );
 }
