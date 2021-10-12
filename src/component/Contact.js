@@ -50,7 +50,7 @@ function Word() {
           lucille.lefebvre.pro@gmail.com
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/lucille-lefebvre-1907a983/">
+          <a href="https://www.linkedin.com/in/lucille-lefebvre-1907a983/" target="_blank">
             <i class="fab fa-linkedin"></i>
           </a>{" "}
           Linkedin
