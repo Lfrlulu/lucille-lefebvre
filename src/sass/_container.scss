@@ -3,7 +3,8 @@
     max-width: 120rem;
   
     @media screen and (max-width:$sm-breakpoint){
-      max-width: 400px;
+      // whicj max width for extra small device like my phone???
+      max-width: 380px;
     }
   
     @media screen and (min-width:$sm-breakpoint){
