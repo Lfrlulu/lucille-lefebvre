@@ -40,6 +40,7 @@ function App() {
         <video loop={true} autoPlay={true} muted={true} className="fullscreen-bg-video">
           <source src={video} type="video/mp4" />
         </video>
+        <div class="jumbotron-content-icon"><i class="fa fa-3x fa-arrow-down"></i></div>
       </header>
       <About/>
       <Projects/>

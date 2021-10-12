@@ -28,6 +28,7 @@ const tileVariants = {
 };
 
 function Word({ word, className }) {
+   // Allow the text to come later
   const controls = useAnimation();
   const [ref, inView] = useInView();
   useEffect(() => {
@@ -57,20 +58,6 @@ function TileQualities() {
     }
   }, [controls, inView]);
 
-  const displayWords = words.map((word, i) => {
-    // demander à Fred pourquoi ça s'incremente tout seule???
-    // for (let j = 0; j < words.length; j++) {
-    //   wordVariants.visible.transition.duration ++
-    //   console.log(wordVariants.visible.transition.duration)
-    // }
-
-    if (i % 2 === 0) {
-      return <Word key={i} word={word} className="even" />;
-    } else {
-      return <Word key={i} word={word} className="odd" />;
-    }
-  });
-
   return (
     <motion.div
       className="tile"
@@ -79,7 +66,6 @@ function TileQualities() {
       initial="hidden"
       variants={tileVariants}
     >
-      {/* {displayWords} */}
       <Word 
         word={words}
       />

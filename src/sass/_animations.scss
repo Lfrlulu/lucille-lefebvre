@@ -1,0 +1,15 @@
+@keyframes arrowTranslate {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(10px);
+    }
+}
+
+.fa-arrow-down {
+    animation-name: arrowTranslate;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}

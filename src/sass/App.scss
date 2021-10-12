@@ -5,6 +5,8 @@
 @import 'projects';
 @import 'contact';
 @import 'transitions';
+@import 'animations';
+
 
 .App {
   text-align: center;
@@ -35,6 +37,21 @@
       @media screen and (max-width:$sm-breakpoint){
         font-size: 2.5rem;
       }
+    }
+  }
+  .jumbotron-content-icon {
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    color: #f2f0f1;
+    text-align: center;
+    font-size: 1.5rem;
+    @media screen and (max-width:$xl-breakpoint){
+      bottom: 35%
+    }
+    @media screen and (max-width:$md-breakpoint){
+      font-size: 0.8rem;
     }
   }
 
