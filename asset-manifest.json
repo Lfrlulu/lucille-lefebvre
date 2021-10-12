@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lucille-lefebvre/static/css/main.9ef2d571.chunk.css",
-    "main.js": "/lucille-lefebvre/static/js/main.a92c587d.chunk.js",
-    "main.js.map": "/lucille-lefebvre/static/js/main.a92c587d.chunk.js.map",
+    "main.css": "/lucille-lefebvre/static/css/main.42f40316.chunk.css",
+    "main.js": "/lucille-lefebvre/static/js/main.38ff41f3.chunk.js",
+    "main.js.map": "/lucille-lefebvre/static/js/main.38ff41f3.chunk.js.map",
     "runtime-main.js": "/lucille-lefebvre/static/js/runtime-main.fc586636.js",
     "runtime-main.js.map": "/lucille-lefebvre/static/js/runtime-main.fc586636.js.map",
     "static/js/2.ed04e895.chunk.js": "/lucille-lefebvre/static/js/2.ed04e895.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6abe988d.chunk.js": "/lucille-lefebvre/static/js/3.6abe988d.chunk.js",
     "static/js/3.6abe988d.chunk.js.map": "/lucille-lefebvre/static/js/3.6abe988d.chunk.js.map",
     "index.html": "/lucille-lefebvre/index.html",
-    "static/css/main.9ef2d571.chunk.css.map": "/lucille-lefebvre/static/css/main.9ef2d571.chunk.css.map",
+    "static/css/main.42f40316.chunk.css.map": "/lucille-lefebvre/static/css/main.42f40316.chunk.css.map",
     "static/js/2.ed04e895.chunk.js.LICENSE.txt": "/lucille-lefebvre/static/js/2.ed04e895.chunk.js.LICENSE.txt",
     "static/media/about-photo.8370de49.png": "/lucille-lefebvre/static/media/about-photo.8370de49.png",
     "static/media/bg-video-HD.4494d7bc.mp4": "/lucille-lefebvre/static/media/bg-video-HD.4494d7bc.mp4",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.fc586636.js",
     "static/js/2.ed04e895.chunk.js",
-    "static/css/main.9ef2d571.chunk.css",
-    "static/js/main.a92c587d.chunk.js"
+    "static/css/main.42f40316.chunk.css",
+    "static/js/main.38ff41f3.chunk.js"
   ]
 }
