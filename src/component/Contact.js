@@ -34,7 +34,7 @@ function Word() {
       <button
         onClick={() => {
           window.open(
-            `${process.env.PUBLIC_URL}../pdf/LucilleLefebvreDev.pdf`
+            `${process.env.PUBLIC_URL}/pdf/LucilleLefebvreDev.pdf`
           );
         }}
       >
