@@ -42,7 +42,7 @@
           border-radius: 0.3rem;
           font-size: 2rem;
           cursor: pointer;
-          transition: all 0.3s ease-in-out;
+
           
           &:hover {
             display: inline-block;
@@ -71,5 +71,14 @@
     }
     @media screen and (max-width:$xl-breakpoint){
       padding-top: 25rem;
+    }
+  }
+
+
+  button{
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      display: inline-block;
+      transform: scale(1.3);
     }
   }

@@ -7,8 +7,8 @@ import { useInView } from "react-intersection-observer";
 
 // En bref ????
 const words = [
-  "Je suis une developpeuse web à la recherche d'un stage.",
-  "Possédant de solides bases en React et Javascript,",
+  "Je suis une developpeuse web junior à la recherche d'un stage.",
+  "Possédant de bonnes bases en React et Javascript,",
   "je m'adapte à tous types de projets et d'équipes.",
   "J'ai de plus quelques connaissances en Python.",
   "La logique de programmation me passionne.",

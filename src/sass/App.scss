@@ -4,20 +4,12 @@
 @import 'navbar';
 @import 'projects';
 @import 'contact';
+@import 'transitions';
 
 .App {
   text-align: center;
   font-family: "Iceberg", cursive;
   font-family: "Shadows Into Light", cursive;
-}
-
-ul li a{
-  transition: all 0.3s ease-in-out;
-}
-
-ul li a:hover {
-  display: inline-block;
-  transform: scale(1.3);
 }
 
 .App-header {

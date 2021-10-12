@@ -1,28 +1,7 @@
 import React from "react";
-import { Component } from "react";
 
-console.log(window.location)
-export class Navbar extends Component {
+export const Navbar = ()=> {
 
-
-  state={
-    autoplay: false,
-    text: "hello"
-  }
-
-  // changeToSpan(){
-  //   let div = document.querySelector(".letterMe");
-  //   let str = div.innerText;
-  //   div.innerText= "";
-  //   for (let i = 0; i < str.length; i++) {
-  //     let span = document.createElement("span");
-  //     span.innerText = str[i];
-  //     div.appendChild(span);
-  //   }
-
-  // }
-
-  render(){
     return (
       <div className="navbar">
           <div className="container">
@@ -33,8 +12,6 @@ export class Navbar extends Component {
                 </div>
                 <div className="links">
                   <ul>
-
-
                   
                     <li>
                       <a href="#about">
@@ -42,7 +19,7 @@ export class Navbar extends Component {
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="#projects">
                         Projets
                       </a>
                     </li>
@@ -58,5 +35,4 @@ export class Navbar extends Component {
           </div>
       </div>
     );
-  }
 };
