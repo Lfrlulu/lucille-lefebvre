@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lucille-lefebvre/static/css/main.30cb66d5.chunk.css",
-    "main.js": "/lucille-lefebvre/static/js/main.fe52326c.chunk.js",
-    "main.js.map": "/lucille-lefebvre/static/js/main.fe52326c.chunk.js.map",
+    "main.js": "/lucille-lefebvre/static/js/main.b61234ee.chunk.js",
+    "main.js.map": "/lucille-lefebvre/static/js/main.b61234ee.chunk.js.map",
     "runtime-main.js": "/lucille-lefebvre/static/js/runtime-main.fc586636.js",
     "runtime-main.js.map": "/lucille-lefebvre/static/js/runtime-main.fc586636.js.map",
     "static/js/2.930056fd.chunk.js": "/lucille-lefebvre/static/js/2.930056fd.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.fc586636.js",
     "static/js/2.930056fd.chunk.js",
     "static/css/main.30cb66d5.chunk.css",
-    "static/js/main.fe52326c.chunk.js"
+    "static/js/main.b61234ee.chunk.js"
   ]
 }
