@@ -23,6 +23,7 @@ function App() {
 
   // create an event listener
   useEffect(() => {
+    window.addEventListener("load", handleResize);
     window.addEventListener("resize", handleResize);
     console.log(isMobile);
   });
