@@ -38,20 +38,20 @@ function Word() {
           );
         }}
       >
-        <i class="fas fa-cloud-upload-alt"></i>CV{" "}
+        <i className="fas fa-cloud-upload-alt"></i>CV{" "}
       </button>
       {/* <a href={process.env.PUBLIC_URL + '../pdf/LucilleLefebvreDev.pdf'} target="_blank"><button><i class="fas fa-cloud-upload-alt"></i>CV </button></a> */}
       <ul>
         Vous pouvez me contacter par :
         <li>
           <a href="mailto:someone@example.com">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
           </a>{" "}
           lucille.lefebvre.pro@gmail.com
         </li>
         <li>
           <a href="https://www.linkedin.com/in/lucille-lefebvre-1907a983/" target="_blank">
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </a>{" "}
           Linkedin
         </li>
