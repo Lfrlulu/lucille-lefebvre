@@ -1,11 +1,11 @@
 @for $i from 1 through 20 {
-    .margin-#{$i}{
-        margin: 1rem * $i;
-    }
+  .margin-#{$i} {
+    margin: 1rem * $i;
   }
-  
-  @for $i from 1 through 20 {
-    .padding-#{$i}{
-        padding: 1rem * $i;
-    }
+}
+
+@for $i from 1 through 20 {
+  .padding-#{$i} {
+    padding: 1rem * $i;
   }
+}

@@ -30,22 +30,19 @@ function App() {
 
   const VideoOrImage = () => {
     if (isMobile) {
-      return(
-        <img src={image2} alt="" className="bg-image" />
-      );
+      return <img src={image2} alt="" className="bg-image" />;
     } else {
-      return(
+      return (
         <video
-        loop={true}
-        autoPlay={true}
-        muted={true}
-        className="fullscreen-bg-video"
-      >
-        <source src={video} type="video/mp4" />
-      </video>
+          loop={true}
+          autoPlay={true}
+          muted={true}
+          className="fullscreen-bg-video"
+        >
+          <source src={video} type="video/mp4" />
+        </video>
       );
     }
-
   };
 
   return (
@@ -53,26 +50,28 @@ function App() {
       <header className="App-header">
         <Navbar />
         <div className="header-content">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Bienvenue sur mon portofolio !")
-                .pauseFor(2500)
-                .deleteAll()
-                .typeString("Venez decouvrir")
-                .pauseFor(2000)
-                .typeString(" mon travail")
-                .pauseFor(2500)
-                .deleteChars(11)
-                .pauseFor(3500)
-                .typeString("ma personnalité")
-                .deleteAll()
-                .start();
-            }}
-            options={{
-              loop: true,
-            }}
-          />
+          <div className="container">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Bienvenue sur mon portofolio !")
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .typeString("Venez decouvrir")
+                  .pauseFor(2000)
+                  .typeString(" mon travail")
+                  .pauseFor(2500)
+                  .deleteChars(11)
+                  .pauseFor(3500)
+                  .typeString("ma personnalité")
+                  .deleteAll()
+                  .start();
+              }}
+              options={{
+                loop: true,
+              }}
+            />
+          </div>
         </div>
         <div className="container-image">
           <img src={image} alt="" srcSet="" />

@@ -1,56 +1,79 @@
 .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    color: white;
-    font-size: 2.5rem;
-    text-shadow: black 1px 2px;
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: black 1px 2px;
+  z-index: 1;
+  @media screen and (max-width: $md-breakpoint) {
+    padding-top: 2rem;
+  }
 
-    .flex-nav {
+  .flex-nav {
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
       display: flex;
-      justify-content: space-between;
-  
-      .logo {
-        display: flex;
-        align-items: center;
-        @media screen and (max-width:$md-breakpoint){
-          font-size: 1.5rem;
-        }
+      align-items: center;
+    }
+    .links {
+      font-family: 'Oswald', sans-serif;
+      text-shadow: black 1px 1px;
+      @media screen and (max-width: $md-breakpoint) {
+        display: none;
       }
-      .links {
-        @media screen and (max-width:$md-breakpoint){
-          display: none;
-        }
-        @media screen and (min-width:$md-breakpoint){
-          display: visible;
-        }
-        ul {
-          display: flex;
-          padding: 0;
-          justify-content: space-between;
-          li {
-            display: inline-block;
-            margin: 0 1rem;
-            a {
-              text-decoration: none;
-              color: white;
-            }
+      @media screen and (min-width: $md-breakpoint) {
+        display: visible;
+      }
+      ul {
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        li {
+          display: inline-block;
+          margin: 0 1rem;
+          a {
+            text-decoration: none;
+            color: white;
           }
         }
       }
+    }
 
-      .hamburger-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        @media screen and (max-width:$md-breakpoint){
-          display: visible;
-        }
-        @media screen and (min-width:$md-breakpoint){
-          display: none;
-        }
+    .hamburger-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: $md-breakpoint) {
+        display: visible;
+      }
+      @media screen and (min-width: $md-breakpoint) {
+        display: none;
       }
     }
+
+    .hidden {
+      display: none;
+    }
   }
+
+  .hamburger-links{
+    font-family: 'Oswald', sans-serif;
+    ul{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      li{
+        display: inline-block;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+
+  }
+}
