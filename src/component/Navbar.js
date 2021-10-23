@@ -30,6 +30,9 @@ export const Navbar = ()=> {
                     </li>
                   </ul>
                 </div>
+                <div className="hamburger-links">
+                  <i class="fas fa-bars"></i>
+                </div>
               </div>
             </nav>
           </div>

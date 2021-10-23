@@ -20,10 +20,12 @@
         }
       }
       .links {
-        div {
-          display: inline-block;
+        @media screen and (max-width:$md-breakpoint){
+          display: none;
         }
-  
+        @media screen and (min-width:$md-breakpoint){
+          display: visible;
+        }
         ul {
           display: flex;
           padding: 0;
@@ -34,11 +36,20 @@
             a {
               text-decoration: none;
               color: white;
-              @media screen and (max-width:$md-breakpoint){
-                font-size: 1.5rem;
-              }
             }
           }
+        }
+      }
+
+      .hamburger-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width:$md-breakpoint){
+          display: visible;
+        }
+        @media screen and (min-width:$md-breakpoint){
+          display: none;
         }
       }
     }
