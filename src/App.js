@@ -69,7 +69,8 @@ function App() {
       <div className="App">
         <div className="loading">
           <div className="wrapper-box">
-            <div className="box"></div>
+            <div className="box">
+            </div>
           </div>
           <div className="water"></div>
         </div>

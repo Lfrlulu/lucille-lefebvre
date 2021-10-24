@@ -1,11 +1,11 @@
-@import 'variables';
-@import 'container';
-@import 'about';
-@import 'navbar';
-@import 'projects';
-@import 'contact';
-@import 'transitions';
-@import 'animations';
+@import "variables";
+@import "container";
+@import "about";
+@import "navbar";
+@import "projects";
+@import "contact";
+@import "transitions";
+@import "animations";
 
 // dark: #303032
 
@@ -15,27 +15,32 @@
   font-family: "Shadows Into Light", cursive;
 }
 
-.loading{
+.loading {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  background-color: #e2a82b;
-  .wrapper-box{
-    background-color: #f8f2de;
+  background-color: #00aaa1;
+  // background-color: #d3fcf6;
+
+  .wrapper-box {
+    // background-color: #f3ffa4;
+    background: #d3fcf6
   }
   .box {
     position: relative;
-    background-image: url(../img/fond-loading.png);
+    background-image: url(../img/fond-loading2.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
     height: 20rem;
     width: 20rem;
     z-index: 2;
   }
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
@@ -47,7 +52,7 @@
   .bg-image {
     width: 100%;
   }
-  
+
   .header-content {
     position: absolute;
     //! Mettre les 4 zero pour positionnement
@@ -59,12 +64,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     .Typewriter {
       font-weight: 100;
       font-size: 5rem;
       text-align: center;
-      @media screen and (max-width:$sm-breakpoint){
+      @media screen and (max-width: $sm-breakpoint) {
         font-size: 3rem;
       }
     }
@@ -77,10 +82,10 @@
     color: #f2f0f1;
     text-align: center;
     font-size: 1.5rem;
-    @media screen and (max-width:$xl-breakpoint){
-      bottom: 35%
+    @media screen and (max-width: $xl-breakpoint) {
+      bottom: 35%;
     }
-    @media screen and (max-width:$md-breakpoint){
+    @media screen and (max-width: $md-breakpoint) {
       // font-size: 0.8rem;
       display: none;
     }
@@ -96,13 +101,3 @@
     }
   }
 }
-
-
-
-
-
-
-
-
-
-

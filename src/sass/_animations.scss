@@ -22,7 +22,7 @@
     }
 
     50% {
-      transform: translateY(-100%) rotate(500deg)
+      transform: translateY(-100%) rotate(500deg);
     }
 
     100% {
@@ -33,13 +33,17 @@
 
 .water{
     position: absolute;
-    height: 30rem;
-    width: 30rem;
-    margin-top: 50rem;
-    margin-top: 35%;
-    background: #e2a82b;
-    // background: #705210;
-    border-radius: 35%;
-    animation: spin 12s ease-in-out infinite;
-    z-index: 1;
+    height: 20rem;
+    width: 20rem;
+    bottom: 4%;
+    // background: #e2a82b;
+    // background: #d3fcf6;
+    background: #00aaa1;
+    border-radius: 40%;
+    animation: spin 6s ease-in-out infinite;
+    // z-index: 1;
+    @media screen and (max-width: $md-breakpoint) {
+      // margin-top: 30%;
+    }
+      
   }
