@@ -7,11 +7,36 @@
 @import 'transitions';
 @import 'animations';
 
+// dark: #303032
 
 .App {
   text-align: center;
   font-family: "Iceberg", cursive;
   font-family: "Shadows Into Light", cursive;
+}
+
+.loading{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #e2a82b;
+  .wrapper-box{
+    background-color: #f8f2de;
+  }
+  .box {
+    position: relative;
+    background-image: url(../img/fond-loading.png);
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+    z-index: 2;
+  }
+}
+
+.hidden{
+  display: none;
 }
 
 .App-header {

@@ -3,15 +3,6 @@ import { React, useState } from "react";
 export const Navbar = () => {
   const [isClick, setisClick] = useState(false);
 
-  // const hamburgerClick = () => {
-  //   if(isHidden){
-  //     {
-  //       display: "flex",
-  //       flex-direction: "column"
-  //     }
-  //   }
-  // }
-
   return (
     <div
       className="navbar"
@@ -47,7 +38,7 @@ export const Navbar = () => {
               }}
               className="hamburger-btn"
             >
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </div>
           </div>
           <div
