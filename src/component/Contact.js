@@ -44,7 +44,7 @@ function Word() {
       <ul>
         Vous pouvez me contacter par :
         <li>
-          <a href="mailto:someone@example.com">
+          <a href="mailto:lucille.lefebvre.pro@gmail.com">
             <i className="fas fa-envelope"></i>
           </a>{" "}
           lucille.lefebvre.pro@gmail.com

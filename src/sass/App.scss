@@ -4,6 +4,7 @@
 @import "navbar";
 @import "projects";
 @import "contact";
+@import "reset";
 @import "transitions";
 @import "animations";
 
@@ -26,18 +27,19 @@
 
   .wrapper-box {
     // background-color: #f3ffa4;
-    background: #d3fcf6
+    background: #d3fcf6;
+    .box {
+      position: relative;
+      background-image: url(../img/fond-loading2.png);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      height: 20rem;
+      width: 20rem;
+      z-index: 2;
+    }
   }
-  .box {
-    position: relative;
-    background-image: url(../img/fond-loading2.png);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    height: 20rem;
-    width: 20rem;
-    z-index: 2;
-  }
+
 }
 
 .hidden {
