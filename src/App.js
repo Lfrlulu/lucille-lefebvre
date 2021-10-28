@@ -26,7 +26,6 @@ function App() {
     }
   };
 
-
   // create an event listener
   useEffect(() => {
     console.log(isLoadding);
@@ -73,7 +72,7 @@ function App() {
             <div className="box">
             </div>
           </div>
-          {/* <div className="water"></div> */}
+          <div className="water"></div>
         </div>
         <div className="hidden">
           <VideoOrImage 
