@@ -22,28 +22,10 @@
     }
 
     50% {
-      transform: translateY(-100%) rotate(500deg);
+      transform: translateY(100%) rotate(500deg);
     }
 
     100% {
         transform: translateT(0) rotate(0deg);
       }
-  }
-
-
-.water{
-    position: absolute;
-    height: 20rem;
-    width: 20rem;
-    bottom: 4%;
-    // background: #e2a82b;
-    background: #d3fcf6;
-    background: #00aaa1;
-    border-radius: 40%;
-    animation: spin 6s ease-in-out infinite;
-    // z-index: 1;
-    @media screen and (max-width: $md-breakpoint) {
-      // margin-top: 30%;
-    }
-      
   }

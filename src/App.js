@@ -17,7 +17,7 @@ function App() {
   const videoEl = useRef(null);
 
   //choose the screen size
-  const handleResize = () => {
+  const handleMobile = () => {
     if (window.innerWidth < 768) {
       setIsMobile(true);
       setIsLoadding(false);
@@ -29,12 +29,8 @@ function App() {
   // create an event listener
   useEffect(() => {
     console.log(isLoadding);
-    window.addEventListener("load", handleResize);
-    window.addEventListener("resize", handleResize);
-
-    // console.log(videoEl.current);
-    // console.log(isMobile);
-    // console.log(isLoadding);
+    window.addEventListener("load", handleMobile);
+    window.addEventListener("resize", handleMobile);
   });
 
   useEffect(() => {
@@ -72,7 +68,6 @@ function App() {
             <div className="box">
             </div>
           </div>
-          <div className="water"></div>
         </div>
         <div className="hidden">
           <VideoOrImage 

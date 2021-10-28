@@ -30,13 +30,30 @@
     background: #d3fcf6;
     .box {
       position: relative;
-      background-image: url(../img/fond-loading2.png);
-      background-size: cover;
       display: flex;
       justify-content: center;
       height: 20rem;
       width: 20rem;
       z-index: 2;
+      overflow: hidden;
+    }
+    .box:before{
+      content: "";
+      z-index: 3;
+      height: 20rem;
+      width: 20rem;
+      background-image: url(../img/fond-loading2.png);
+      background-size: cover;
+    }
+    .box:after{
+      content:"";
+      position: absolute;
+      height: 20rem;
+      width: 20rem;
+      top: 4%;
+      background-color: mediumvioletred;
+      border-radius: 40%;
+      animation: spin 6s ease-in-out infinite;
     }
   }
 
