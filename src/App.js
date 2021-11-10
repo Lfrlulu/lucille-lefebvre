@@ -28,14 +28,13 @@ function App() {
 
   // create an event listener
   useEffect(() => {
-    console.log(isLoadding);
     window.addEventListener("load", handleMobile);
     window.addEventListener("resize", handleMobile);
   });
 
   useEffect(() => {
     videoEl.current.addEventListener("loadeddata", () => {
-      console.log(videoEl.current.readyState);
+      // console.log(videoEl.current.readyState);
       if (videoEl.current.readyState >= 3){
         setIsLoadding(false);
       }
